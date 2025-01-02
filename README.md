@@ -1,5 +1,3 @@
-#SHA-256 and Bitcoin Hashing Implementation
-
 ## Project Overview
 
 This project explores the implementation and optimization of the **SHA-256 cryptographic hash function** and its application in **Bitcoin hashing** using **SystemVerilog**.
