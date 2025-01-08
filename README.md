@@ -59,7 +59,7 @@ Bitcoin mining leverages **SHA-256** to solve cryptographic puzzles by finding a
 ## Optimizations
 
 1. **SHA-256 Optimization:**
-   - Reduced word memory requirements for message expansion, cutting cycles from ~4000 to 175.
+   - Reduced word memory requirements for message expansion, cutting cycles from ~4000 to 175. This optimization provides a speedup of 22 times.
 2. **Bitcoin Hashing Optimization:**
    - Parallelization of 16 SHA-256 modules, significantly accelerating nonce exploration.
 
@@ -67,14 +67,21 @@ Bitcoin mining leverages **SHA-256** to solve cryptographic puzzles by finding a
 
 ### SHA-256
 - Waveforms and Transcript
+  
 - FMax Report
+  
 - Resource Usage
+  
 
 ### Bitcoin Hashing
 - Waveforms and Transcript
+  
 - FMax Report
+  
 - Resource Usage
+  
 
 ## Resource Usage and Performance
 - **SHA-256:** Optimized to minimize memory usage and computational cycles.
+  
 - **Bitcoin Hasher:** Parallelized modules and optimized FSM, reducing the hashing process to minimal cycles.
